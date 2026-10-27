@@ -18,7 +18,7 @@ python3 -m http.server 8000 --bind 0.0.0.0
 
 6. Ports panelinde 8000 portunu bul. Gerekirse Forward a Port ile 8000 ekle. Open in Browser seç. Port Private kalabilir.
 7. Ana Sayfa, Etkinlikler ve Hakkımızda bağlantılarını dene.
-8. HTML/CSS değişikliğinden sonra dosyayı kaydet (Ctrl+S veya Mac'te Cmd+S), browser sayfasını yenile.
+8. HTML/CSS/JavaScript değişikliğinden sonra dosyayı kaydet (Ctrl+S veya Mac'te Cmd+S), browser sayfasını yenile.
 
 Codespaces varsayılan ortamında Python bulunur. `python3 --version` ile kontrol et. Bu projede npm, framework, database veya uygulama kurulumu gerekmez. Python yalnızca hazır dosyaları sunar. Yerel bilgisayarda HTML dosyalarını çift tıklayarak da açabilirsin.
 
@@ -27,6 +27,7 @@ Codespaces varsayılan ortamında Python bulunur. `python3 --version` ile kontro
 - etkinlikler.html: Beş örnek etkinlik
 - hakkimizda.html: Proje tanıtımı
 - style.css: Ortak renkler, sayfa düzeni ve mobil görünüm
+- script.js: Etkinlik başlığı araması ve kart filtreleme
 
 ## Copilot alıştırması
 Önce dosyayı aç. Chat içinde şunu sor:
