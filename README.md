@@ -24,7 +24,7 @@ Codespaces varsayılan ortamında Python bulunur. `python3 --version` ile kontro
 
 ## Dosyalar
 - index.html: Ana Sayfa
-- etkinlikler.html: Üç örnek etkinlik
+- etkinlikler.html: Beş örnek etkinlik
 - hakkimizda.html: Proje tanıtımı
 - style.css: Ortak renkler, sayfa düzeni ve mobil görünüm
 
@@ -37,7 +37,7 @@ Sonra şu küçük değişikliği iste:
 
 > Yalnızca etkinlikler.html dosyasına mevcut article yapısını kullanarak bir GitHub Atölyesi ekle. Tarihi 3 Aralık, saati 14.00 ve yeri Bilgisayar Laboratuvarı olsun. Yeni paket veya JavaScript ekleme. Değişen satırları açıkla.
 
-Öneriyi oku. Dört etkinliğin göründüğünü ve diğer sayfaların açıldığını kontrol et. AI_NOTLARI.md dosyasına hangi yardımı aldığını ve nasıl test ettiğini yaz. Copilot erişimin yoksa bir article bloğunu kendin çoğalt.
+Öneriyi oku. Altı etkinliğin göründüğünü ve diğer sayfaların açıldığını kontrol et. AI_NOTLARI.md dosyasına hangi yardımı aldığını ve nasıl test ettiğini yaz. Copilot erişimin yoksa bir article bloğunu kendin çoğalt.
 
 ## Kaydet ve GitHub'a gönder
 Source Control bölümünde diff'i incele. İlgili dosyaları + ile stage et. Anlamlı mesajla Commit yap. Ardından Sync Changes veya Push seç. GitHub repository sayfasında yeni commit'i doğrula.

@@ -144,6 +144,7 @@ article {
   border-top: 4px solid var(--gold);
   border-radius: 4px;
   box-shadow: 0 9px 24px rgb(38 56 47 / 8%);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 
 article .card-image {
@@ -153,6 +154,19 @@ article .card-image {
   margin: -25px -25px 20px;
   border-radius: 3px;
   object-fit: cover;
+  transition: transform 220ms ease;
+}
+
+@media (hover: hover) {
+  .grid article:hover {
+    transform: translateY(-5px);
+    border-top-color: var(--emerald);
+    box-shadow: 0 16px 32px rgb(38 56 47 / 16%);
+  }
+
+  .grid article:hover .card-image {
+    transform: scale(1.04);
+  }
 }
 
 article h2 {
